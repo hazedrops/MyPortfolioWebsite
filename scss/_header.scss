@@ -1,0 +1,65 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  color: $text-color;
+  background-image: url('../../img/main.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  transform: translateY(-25%) skewY(-5deg);
+
+  .headerTitle {
+    transform: skewY(5deg);
+    margin-top: 6em;
+
+    a:link,
+    a:visited {
+      color: $text-color;
+    }
+
+    h1 {
+      font-family: 'Roboto Slab', serif;
+      // color: $text-color;
+    }
+
+    h1:hover {
+      transform: translate(2px, 2px);
+    }
+  }
+
+  .subTitle {
+    transform: skewY(5deg);
+    font-family: 'New Tegomin', serif;
+    font-weight: 500;
+    margin: 0.5em 0 0 0.5em;
+  }
+
+  .headerContent {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transform: skewY(5deg);
+
+    .introduction {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: $back-color;
+      width: 50%;
+      height: 60%;
+      padding: 0.8em;
+
+      p {
+        margin: 0.3em 0;
+        font-size: 1.3em;
+        color: $text-color;
+      }
+    }
+  }
+}

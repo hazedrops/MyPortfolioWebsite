@@ -1,0 +1,31 @@
+#apiPage {
+  .apiProejcts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .apiProject {
+      display: flex;
+      align-items: space-between;
+      width: 100%;
+      
+      .projectImage {
+        width: 48%;
+        height: 30vh;
+        padding: 1em;
+        border-radius: 5px;
+        color: #fff;
+        padding: 3em;
+        background-color: #333;
+      }
+
+      .projectContent {
+        width: 48%;
+        height: 30vh;
+        background-color: #333;
+        border-radius: 5px;
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+$text-color: #fff;
+$intro-color: #000;
+$text-sub-color: #0f0f0f;
+$back-color: rgba(15, 15, 15, 0.6);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  color: $text-sub-color;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 5em;
+}
+
+section {
+  margin-top: 5em;
+}
+
+a {
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+a:link,
+a:visited {
+  color: $text-sub-color;
+}
+
+a:hover {
+  transform: translate(2px, 2px);
+}

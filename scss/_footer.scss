@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .socialMedia {
+    margin-bottom: 1em;
+
+    span {
+      font-size: 1.5em;
+      margin: 1em;
+      transition: transform .2s;
+
+      a:hover {
+        i {
+          transform: translate(2px, 2px);
+        }
+      }
+    }
+  }
+}
