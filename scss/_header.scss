@@ -14,30 +14,53 @@ header {
   .container {
     padding-top: 3em;
 
-    .headerTitle {
-      transform: skewY(5deg);
+    .headerTopDiv {
+      display: flex;
+      justify-content: space-between;
+      // align-items: center;
       margin-top: 6em;
-
-      a:link,
-      a:visited {
-        color: $text-color;
-      }
-
-      h1 {
-        font-family: 'Roboto Slab', serif;
-        // color: $text-color;
-      }
-
-      h1:hover {
-        transform: translate(2px, 2px);
-      }
-    }
-
-    .subTitle {
       transform: skewY(5deg);
-      font-family: 'New Tegomin', serif;
-      font-weight: 500;
-      margin: 0.5em 0 0 0.5em;
+
+      .headerTitleDiv {
+        .headerTitle {
+          // transform: skewY(5deg);
+
+          a:link,
+          a:visited {
+            color: $text-color;
+          }
+
+          h1 {
+            font-family: 'Roboto Slab', serif;
+            // color: $text-color;
+          }
+
+          h1:hover {
+            transform: translate(2px, 2px);
+          }
+        }
+
+        .subTitle {
+          // transform: skewY(5deg);
+          font-family: 'New Tegomin', serif;
+          font-weight: 500;
+          margin: 0.5em 0 0 0.5em;
+        }
+      }
+
+      .menuBarDiv {
+        // transform: skewY(5deg);
+
+        .hamburgerBar {
+          transform: skewY(5deg);
+
+          i {
+            font-size: 2em;
+            // margin-right: 1em;
+            color: $text-color;
+          }
+        }
+      }
     }
 
     .headerContent {
