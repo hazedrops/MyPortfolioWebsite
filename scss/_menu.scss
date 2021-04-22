@@ -1,0 +1,33 @@
+/* Menu style */
+
+.menuDiv {
+  position: fixed;
+  top: 3em;
+  right: 3em;
+  z-index: 1;
+
+  .toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1em;
+    background: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

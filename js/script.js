@@ -1,13 +1,9 @@
-const appProjectDiv = getElementById('appProject');
-const apiProjectDiv = getElementById('apiProject');
-const cloneProjectDiv = getElementById('cloneProject');
+const barMenu = getElementById('hamburgerBar');
+const container = getElementById('container');
 
-appProjectDiv.addEventListener('click', showAppPage);
-apiProjectDiv.addEventListener('click', showApiPage);
-cloneProjectDiv.addEventListener('click', showClonePage);
+barMenu.addEventListener('click', showMenu);
 
-<div onclick="location.href='http://www.example.com';" style="cursor:pointer;"></div>
-
-function showAppPage() {
-  const location.href='http://www.example.com';
+function showMenu() {
+  console.log("Hello!");
 }
+
